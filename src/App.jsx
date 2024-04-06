@@ -87,7 +87,7 @@ function PropertyForm({ onSubmit }) {
       <input type="text" name="name" placeholder="Property Name" value={property.name} onChange={handleChange} className="input input-bordered w-full mb-2" />
       <textarea name="description" placeholder="Description" value={property.description} onChange={handleChange} className="textarea textarea-bordered w-full mb-2"></textarea>
       <input type="text" name="terms" placeholder="Lease Terms" value={property.terms} onChange={handleChange} className="input input-bordered w-full mb-4" />
-      <button type="submit" className="btn btn-accent btn-block rounded-box">
+      <button type="submit" className="btn btn-secondary btn-block rounded-box">
         Add Property
       </button>
     </form>
@@ -134,7 +134,7 @@ function RenterForm({ onSubmit }) {
       <input type="email" name="email" placeholder="Email" value={renter.email} onChange={handleChange} className="input input-bordered w-full mb-2" />
       <input type="tel" name="phone" placeholder="Phone" value={renter.phone} onChange={handleChange} className="input input-bordered w-full mb-2" />
       <textarea name="references" placeholder="References" value={renter.references} onChange={handleChange} className="textarea textarea-bordered w-full mb-4"></textarea>
-      <button type="submit" className="btn btn-accent btn-block rounded-box">
+      <button type="submit" className="btn btn-secondary btn-block rounded-box">
         Add Renter
       </button>
     </form>
